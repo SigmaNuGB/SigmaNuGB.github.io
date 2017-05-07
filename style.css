@@ -27,3 +27,10 @@ li a.active {
     color: white;
     background-color: #4CAF50;
 }
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
